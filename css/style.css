@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'inter';
+    src: url('../assets/fonts/Inter-VariableFont_slnt,wght.ttf'),
+    url('../assets/fonts/static/Inter-Bold.ttf'),
+    url('../assets/fonts/static/Inter-ExtraBold.ttf'),
+    url('../assets/fonts/static/Inter-Regular.ttf');
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+nav .navigation{
+    display: flex;
+}
+
+.navigation > li > a{
+    padding: 12px;
+    font-size: 14px;
+    color: #838183;
+}
+
+.navigation > li > a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    margin: auto
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.image-web img { 
+    height: 250px;
+    width: 580px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.title h1 {
+    font-size: 2.5em;
+    color: #00001A;
+    width: 200px;
+    font-weight: bold;
+}
+
+.introduction p {
+    width: 320px;
+    font-size: 14px;
+    color: #838183;
+}
+
+button {
+    background-color: #F15D51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #00001A;
+    cursor: pointer;
+}
+
+button a {
+    color: #FFFF;
+    font-weight: bold;
+}
+
+.changes h1 {
+    color: #E6AC69;
+    font-size: 30px;
+}
+
+.changes {
+    background-color: #00001A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.changes h1 {
+    color: #E6AC69;
+    font-size: 30px;
+    margin: 18px
+}
+
+.change {
+    border-bottom: 1px solid #FFFF;
+    margin: 20px;
+}
+
+.change:last-child{
+    border: none
+}
+
+.change a {
+    color: #FFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.change a:hover{
+    color: #E6AC69;
+}
+
+.change p{
+    color: #838183;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.eletronics-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.eletronics-section .eletronic img{
+    height: 100px;
+}
+
+.eletronic{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px
+}
+
+.eletronic-description{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 210px;
+    padding-left: 15px;
+}
+
+
+.eletronic .eletronic-description h2 {
+    color: #C8C5C8;
+}
+
+.eletronic .eletronic-description a:hover {
+    color: rgb(255, 58, 58);
+}
+
+.eletronic .eletronic-description p {
+    font-size: 14px;
+    color: #838183;
+}

@@ -1,0 +1,31 @@
+@media(max-width: 1024px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .eletronics-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .eletronic-description{ 
+        width: 500px;
+    }
+}
+
+@media(max-width: 820px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .eletronics-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .eletronic-description{ 
+        width: 400px;
+    }
+}
