@@ -9,9 +9,6 @@
         flex-direction: column;
     }
 
-    .eletronic-description{ 
-        width: 500px;
-    }
 }
 
 @media(max-width: 820px){
@@ -33,7 +30,7 @@
 @media(max-width: 724px) {
     .image-web img { 
         height: 200px;
-        width: 300px;
+        width: 320px;
     }
 
     .title {

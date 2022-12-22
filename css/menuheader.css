@@ -2,14 +2,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 50px;
+    margin: 40px;
 }
 
-nav .navigation{
+ul {
     display: flex;
 }
 
-.navigation > li > a{
+ul > li > a{
     padding: 12px;
     font-size: 14px;
     color: #838183;
@@ -19,11 +19,24 @@ nav .navigation{
     text-decoration: underline;
 }
 
+.header .menu{
+    display: none;
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+}
+
+.header nav label{
+    display:flex;
+    flex-direction: column;
+}
+
 .header  .hamburguer {
     background-color: #000;
     position: relative;
     display: block;
     width: 30px;
+    bottom: 4px;
     height: 2px;
     transition: 0.5s ease-in-out;
 }
@@ -63,4 +76,43 @@ header input:checked ~ label .hamburguer:before {
 header input:checked ~ label .hamburguer:after {
     transform: rotate(90deg);
     top: 0;
+}
+
+@media(max-width: 900px){
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .header .menu{
+        display: block;
+    }
+
+    .header nav ul {
+        display: none
+    }
+
+    .header input:checked ~ ul{
+        display: block;
+    }
+
+    .header nav {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        z-index: 1;
+    }
+
+    .header nav ul {
+        width: 200px;
+        background-color: #fff;
+        padding: 20px;
+    }
+
+    .header nav ul a{
+        text-align: center;
+        padding: 20px;
+        display: block
+    }
 }

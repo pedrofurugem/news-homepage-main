@@ -9,8 +9,7 @@
 .container{
     display: flex;
     align-items: center;
-    width: 60vw;
-    margin: auto
+    justify-content: center;
 }
 
 .content {
@@ -64,16 +63,12 @@ button a {
     font-weight: bold;
 }
 
-.changes h1 {
-    color: #E6AC69;
-    font-size: 30px;
-}
-
 .changes {
     background-color: #00001A;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 320px;
 }
 
 .changes h1 {
@@ -112,8 +107,8 @@ button a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    
+    width: 80vw;
+    margin: 50px auto;
 }
 
 .eletronics-section .eletronic img{
@@ -130,7 +125,7 @@ button a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 205px;
+    width: 200px;
     padding-left: 15px;
 }
 
