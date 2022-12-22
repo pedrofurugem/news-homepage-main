@@ -6,27 +6,6 @@
     url('../assets/fonts/static/Inter-Regular.ttf');
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 50px;
-}
-
-nav .navigation{
-    display: flex;
-}
-
-.navigation > li > a{
-    padding: 12px;
-    font-size: 14px;
-    color: #838183;
-}
-
-.navigation > li > a:hover{
-    text-decoration: underline;
-}
-
 .container{
     display: flex;
     align-items: center;
@@ -151,13 +130,17 @@ button a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 210px;
+    width: 205px;
     padding-left: 15px;
 }
 
 
 .eletronic .eletronic-description h2 {
     color: #C8C5C8;
+}
+
+.eletronic .eletronic-description a{
+    font-weight: bold;
 }
 
 .eletronic .eletronic-description a:hover {
