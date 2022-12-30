@@ -1,8 +1,15 @@
-header {
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px 10px;
+}
+
+.menu-header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 40px;
+    width: 94vw
 }
 
 ul {
@@ -79,11 +86,7 @@ header input:checked ~ label .hamburguer:after {
 }
 
 @media(max-width: 900px){
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
+    
 
     .header .menu{
         display: block;
